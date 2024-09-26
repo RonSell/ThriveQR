@@ -1,1 +1,1 @@
-This app will be a QR redirect app.
+This app will be a QR redirect app.git add
