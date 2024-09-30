@@ -7,7 +7,7 @@ import { Pool } from 'pg';
 
 // Create a new pool instance
 const pool = new Pool({
-  connectionString: ${{ VARIABLE_NAME }}, //'postgresql://postgres:GYnFniWwPBbEZnNtrBMGPUfckbsJhdaB@autorack.proxy.rlwy.net:39609/railway', //process.env.DATABASE_URL,
+  connectionString: ${{ DATABASE_PUBLIC_URL }}, //'postgresql://postgres:GYnFniWwPBbEZnNtrBMGPUfckbsJhdaB@autorack.proxy.rlwy.net:39609/railway', //process.env.DATABASE_URL,
 });
 
 export async function GET(request: Request) {
